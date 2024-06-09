@@ -1,4 +1,4 @@
-FROM rocker/r-ver:4.3.3
+FROM rocker/r-ver@sha256:77679d3f7b4d774d87be238641dc426190e6a7d06a636714fa011f92fdd42b11
 
 RUN apt-get update && apt-get install -y \
     libglpk-dev \
