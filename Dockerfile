@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
     unixodbc-dev \
     wget \
     pandoc \
-    git
+    git \
+    curl
 
 RUN R -e "install.packages('remotes')"
 
